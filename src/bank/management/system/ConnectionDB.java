@@ -8,7 +8,7 @@ public class ConnectionDB {
 
 	public ConnectionDB() {
 		try {
-			connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/nexusBank", "root", "Pradumn2924@bam");
+			connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/nexusBank", "root", "root");
 			statement=connection.createStatement();
 		}
 		catch(Exception e){
